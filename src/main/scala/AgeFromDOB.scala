@@ -20,7 +20,7 @@ object AgeFromDOB extends App{
         case "ddmmyyyy" => bday = s.substring(4, 8) + "-" + s.substring(2, 4) + "-" + s.substring(0, 2)
         case "mmddyyyy" => bday = s.substring(4, 8) + "-" + s.substring(0, 2) + "-" + s.substring(2, 4)
         case "yyyy-mm-dd" => bday = s
-        case _ => println("This is an invalid format")
+        case _ => println("This is not a correct format")
 
       }
           //Now access the values as below
